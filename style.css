@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(100, 255, 255, .5);
+}
+
+.header {
+    background-color: rgb(72, 203, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    box-shadow: 0px 0px 6px 4px rgb(105, 183, 214);
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.easel {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 24px;
+    box-shadow: 0px 0px 6px 4px rgb(170, 209, 226);
+    display: flex;
+    background-color: white;
+}
+
+.left-side, .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 400px;
+}
+
+button, select {
+    padding: 24px;
+    border-radius: 6px;
+    width: 150px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 800;
+    color: whitesmoke;
+    background-color: #B68E65;
+}
+
+#color-button {
+    padding: 0;
+    height: 67px;
+}
+
+input {
+    border-style: none;
+    height: 100%;
+    width: 100%;
+    padding: 12px;
+    background-color: #B68E65;
+}
+
+.div-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-child {
+    flex: 1;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(81, 193, 81);
+}
